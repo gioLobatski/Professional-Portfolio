@@ -6,15 +6,13 @@ function App() {
       {/* Navigation Bar */}
       <nav className="navbar">
         <span>Gio</span>
-        <div className='menu'>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Let's Talk!</a></li>
         </ul>
-        <button>Let's Talk</button>
-        </div>
       </nav>
 
       <header>
@@ -48,6 +46,11 @@ function App() {
       <section id="skills">
         <h2>Skills</h2>
         <p>JavaScript, React, Node.js, PHP, WordPress, etc.</p>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>Work blah blah blah blah blah blah </p>
       </section>
 
       <section id="contact">
