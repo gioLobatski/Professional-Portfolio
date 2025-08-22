@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+/*NAVIGATION BAR*/
+nav.navbar{
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+}
+
+nav.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  gap: 20px;
+}
+
+/*HEADER*/
+
+.typing {
+  display: inline-block;
+  position: relative;
+  font-size: 1.2em;
+  border-right: 2px solid black; /* cursor */
+  animation: caret 0.7s steps(1) infinite;
+  min-width: 20ch; /* adjust to longest word */
+  text-align: center;
+  white-space: nowrap;
+}
+
+.typing span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0ch;
+  opacity: 0; /* hidden by default */
+}
+
+/* Word 1 */
+.typing span:nth-child(1) {
+  animation: typing1 9s steps(20, end) infinite;
+}
+
+/* Word 2 */
+.typing span:nth-child(2) {
+  animation: typing2 9s steps(20, end) infinite;
+}
+
+/* Word 3 */
+.typing span:nth-child(3) {
+  animation: typing3 9s steps(20, end) infinite;
+}
+
+@keyframes typing1 {
+  0%   { opacity: 1; width: 0ch; }
+  10%  { opacity: 1; width: 20ch; } /* typing */
+  20%  { opacity: 1; width: 20ch; } /* hold */
+  30%  { opacity: 1; width: 0ch; }  /* deleting */
+  33.3%, 100% { opacity: 0; width: 0ch; } /* hide while others run */
+}
+
+@keyframes typing2 {
+  0%, 33.3% { opacity: 0; width: 0ch; }
+  33.3% { opacity: 1; width: 0ch; }
+  43.3% { opacity: 1; width: 13ch; }
+  53.3% { opacity: 1; width: 13ch; }
+  63.3% { opacity: 1; width: 0ch; }
+  66.6%, 100% { opacity: 0; width: 0ch; }
+}
+
+@keyframes typing3 {
+  0%, 66.6% { opacity: 0; width: 0ch; }
+  66.6% { opacity: 1; width: 0ch; }
+  76.6% { opacity: 1; width: 11ch; }
+  86.6% { opacity: 1; width: 11ch; }
+  96.6% { opacity: 1; width: 0ch; }
+  100% { opacity: 0; width: 0ch; }
+}
+
+@keyframes caret {
+  50% { border-color: transparent; }
+}

@@ -3,9 +3,27 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* Navigation Bar */}
+      <nav className="navbar">
+        <span>Gio</span>
+        <div className='menu'>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button>Let's Talk</button>
+        </div>
+      </nav>
+
       <header>
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>Full Stack Developer | Web Designer | Programmer</p>
+        <h1>Hi, I'm Paul Genre Lobaton</h1>
+        <p className="typing">
+          <span>Full Stack Developer</span>
+          <span>Web Designer</span>
+          <span>Programmer</span>
+        </p>
       </header>
 
       <section id="about">
