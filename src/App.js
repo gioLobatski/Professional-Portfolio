@@ -68,7 +68,7 @@ function App() {
           <h3>Owned Projects</h3>
           <Slider {...sliderSettings}>
             <div className="blurb">
-              <img src="/project1.jpg" alt="Project 1" />
+              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 1" />
               <p>Project 1 description</p>
             </div>
             <div className="blurb">
