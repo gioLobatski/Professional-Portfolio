@@ -118,3 +118,14 @@ nav.navbar ul{
 @keyframes caret {
   50% { border-color: transparent; }
 }
+
+/*blurb css*/
+.blurb {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blurb img{
+    max-width: 300px
+}

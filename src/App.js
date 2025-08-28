@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   // Slider settings (you can customize per slider if needed)
   const sliderSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // number of blurbs visible at once
+    slidesToShow: 3, // number of blurbs visible at once
     slidesToScroll: 1,
     arrows: true,
     responsive: [
@@ -72,12 +72,16 @@ function App() {
               <p>Project 1 description</p>
             </div>
             <div className="blurb">
-              <img src="/project2.jpg" alt="Project 2" />
+              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 2" />
               <p>Project 2 description</p>
             </div>
             <div className="blurb">
-              <img src="/project3.jpg" alt="Project 3" />
+              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 3" />
               <p>Project 3 description</p>
+            </div>
+            <div className="blurb">
+              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 4" />
+              <p>Project 4 description</p>
             </div>
           </Slider>
         </div>
@@ -87,7 +91,7 @@ function App() {
           <h3>Projects I Am Part Of</h3>
           <Slider {...sliderSettings}>
             <div className="blurb">
-              <img src="/project4.jpg" alt="Project 4" />
+              <img src="/project4.jpg" alt="Project 4.5" />
               <p>Project 4 description</p>
             </div>
             <div className="blurb">
