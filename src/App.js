@@ -4,29 +4,40 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  // Slider settings (you can customize per slider if needed)
   const sliderSettings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // number of blurbs visible at once
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     responsive: [
       {
         breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
+        settings: { slidesToShow: 1 }
       }
     ]
+  };
+
+  // 📌 Handle contact form submit
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+
+    const subject = `Portfolio Inquiry from ${name}`;
+    const body = `Message: ${message}%0D%0A%0D%0AFrom: ${name}%0D%0AEmail: ${email}`;
+
+    window.location.href = `mailto:giolobaton1024@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
   };
 
   return (
     <div className="App">
       {/* Navigation Bar */}
       <nav className="navbar">
-        <span>Gio</span>
+        <span className="logo">Gio</span>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -36,7 +47,7 @@ function App() {
         </ul>
       </nav>
 
-      {/* Header Section */}
+      {/* Header */}
       <header className="header">
         <div className="header-left">
           <h1>Hi, I'm Paul Genre Lobaton</h1>
@@ -47,105 +58,72 @@ function App() {
           </p>
         </div>
         <div className="header-right">
-          <img src="/me.jpg" alt="Paul Genre Lobaton" className="profile-image" />
+          <img src="assets/images/woocommerce-placeholder.jpg" alt="Paul Genre Lobaton" className="profile-image" />
         </div>
       </header>
 
-      {/* About Section */}
-      <section id="about">
+      {/* About */}
+      <section id="about" className="section">
         <h2>About Me</h2>
-        <p>
-          I’m a passionate developer specializing in React, WordPress, and full-stack projects.
-        </p>
+        <p>I’m a passionate developer specializing in WordPress Web Development and full-stack projects.</p>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects">
+      {/* Projects */}
+      <section id="projects" className="section">
         <h2>Projects</h2>
 
-        {/* Owned Projects */}
         <div className="project-slider">
           <h3>Owned Projects</h3>
           <Slider {...sliderSettings}>
-            <div className="blurb">
-              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 1" />
-              <p>Project 1 description</p>
-            </div>
-            <div className="blurb">
-              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 2" />
-              <p>Project 2 description</p>
-            </div>
-            <div className="blurb">
-              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 3" />
-              <p>Project 3 description</p>
-            </div>
-            <div className="blurb">
-              <img src="assets/images/woocommerce-placeholder.jpg" alt="Project 4" />
-              <p>Project 4 description</p>
-            </div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
           </Slider>
         </div>
 
-        {/* Projects I Am Part Of */}
         <div className="project-slider">
           <h3>Projects I Am Part Of</h3>
           <Slider {...sliderSettings}>
-            <div className="blurb">
-              <img src="/project4.jpg" alt="Project 4.5" />
-              <p>Project 4 description</p>
-            </div>
-            <div className="blurb">
-              <img src="/project5.jpg" alt="Project 5" />
-              <p>Project 5 description</p>
-            </div>
-            <div className="blurb">
-              <img src="/project5.jpg" alt="Project 5" />
-              <p>Project 6 description</p>
-            </div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="Project" /><p>Project description</p></div>
           </Slider>
         </div>
 
-        {/* School Projects */}
         <div className="project-slider">
           <h3>School Projects</h3>
           <Slider {...sliderSettings}>
-            <div className="blurb">
-              <img src="/school1.jpg" alt="School Project 1" />
-              <p>School Project 1 description</p>
-            </div>
-            <div className="blurb">
-              <img src="/school2.jpg" alt="School Project 2" />
-              <p>School Project 2 description</p>
-            </div>
-            <div className="blurb">
-              <img src="/school3.jpg" alt="School Project 3" />
-              <p>School Project 3 description</p>
-            </div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="School Project" /><p>School Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="School Project" /><p>School Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="School Project" /><p>School Project description</p></div>
+            <div className="blurb"><img src="assets/images/woocommerce-placeholder.jpg" alt="School Project" /><p>School Project description</p></div>
           </Slider>
         </div>
       </section>
 
-      {/* Skills Section */}
-      <section id="skills">
+      {/* Skills */}
+      <section id="skills" className="section">
         <h2>Skills</h2>
         <div className="skills-wrapper">
           <div className="skill-item">
-            <img src="/js-logo.png" alt="JavaScript" />
+            <img src="assets/images/js_logo.png" alt="JavaScript" />
             <progress value="80" max="100"></progress>
           </div>
           <div className="skill-item">
-            <img src="/react-logo.png" alt="React" />
+            <img src="assets/images/html_logo.png" alt="HTML" />
             <progress value="75" max="100"></progress>
           </div>
           <div className="skill-item">
-            <img src="/wp-logo.png" alt="WordPress" />
+            <img src="assets/images/css_logo.png" alt="CSS" />
             <progress value="90" max="100"></progress>
           </div>
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section id="experience">
+      {/* Experience */}
+      <section id="experience" className="section">
         <h2>Experience</h2>
         <div className="experience-item">
           <h3>Job Title / Role</h3>
@@ -157,24 +135,23 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact">
+      {/* Contact */}
+      <section id="contact" className="section">
         <h2>Contact</h2>
-
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Your Message" required></textarea>
+          <textarea name="message" placeholder="Your Message/Inquiry" required></textarea>
           <button type="submit">Send</button>
         </form>
 
         <div className="contact-details">
-          <p>Email: youremail@example.com</p>
-          <p>Phone: +63 912 345 6789</p>
+          <p>Email: giolobaton1024@gmail.com</p>
+          <p>Phone: +63 947 246 7693</p>
           <div className="social-icons">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
           </div>
         </div>
       </section>
