@@ -1,0 +1,560 @@
+[00:00:01.124] Server  LOG     
+[00:00:01.124] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.124] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.125] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.125] Server  LOG     
+[00:00:01.125] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.125] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.125] Server  LOG     
+[00:00:01.303] Server  LOG     ✓ Ready in 981ms
+[00:00:02.626] Server  ERROR   ⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+
+./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+
+./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:02.628] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:03.356] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:03.359] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:04.760] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:04.760] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:04.760] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:04.760] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:04.760] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:04.760] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:11.204] Server  ERROR   ⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+
+./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+
+./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:11.205] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:11.323] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:11.366] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:11.517] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:11.517] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:11.517] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:11.517] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:11.517] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:11.517] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:15.591] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:15.591] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:15.591] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:16.982] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:16.982] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:16.982] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:17.184] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:17.185] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:17.185] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:17.509] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:17.509] Browser ERROR   ./node_modules/slick-carousel/slick/slick-theme.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick-theme.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:17.509] Browser ERROR   ./node_modules/slick-carousel/slick/slick.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Gio\OneDrive\Desktop\Personal Projects\professional_portfolio\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/slick-carousel/slick/slick.css [Client Component Browser]
+    ./app/components/Projects.tsx [Client Component Browser]
+    ./app/components/Projects.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:00:35.690] Server  LOG     ✓ Compiled in 1145ms
+[00:00:35.777] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:37.124] Server  WARN    ⚠ ./tailwind.config.js
+Specified module format (EcmaScript Modules) is not matching the module format of the source code (CommonJs)
+The EcmaScript module format was specified in the package.json that is affecting this source file or by using an special extension, but it looks like that CommonJs syntax is used in the source code.
+Exports made by CommonJs syntax will lead to a runtime error, since the module is in EcmaScript mode. Either change the "type" field in the package.json or replace CommonJs syntax with EcmaScript import/export syntax in the source file.
+
+
+[00:00:37.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.398] Server  LOG     ✓ Compiled in 81ms
+[00:03:37.153] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:47.377] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

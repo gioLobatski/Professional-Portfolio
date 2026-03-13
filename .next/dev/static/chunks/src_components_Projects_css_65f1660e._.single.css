@@ -1,0 +1,29 @@
+/* [project]/src/components/Projects.css [client] (css) */
+.project-slider {
+  margin-bottom: 60px;
+}
+
+.project-slider h3 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.blurb {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex !important;
+}
+
+.blurb img {
+  border-radius: 10px;
+  max-width: 250px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+section#projects h3 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=src_components_Projects_css_65f1660e._.single.css.map*/

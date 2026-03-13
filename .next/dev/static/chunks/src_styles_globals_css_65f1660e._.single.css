@@ -1,0 +1,165 @@
+/* [project]/src/styles/globals.css [client] (css) */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+.App {
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.typing {
+  text-align: center;
+  white-space: nowrap;
+  border-right: 2px solid #000;
+  min-width: 20ch;
+  font-size: 1.2em;
+  animation: .7s step-end infinite caret;
+  display: inline-block;
+  position: relative;
+}
+
+.typing span {
+  white-space: nowrap;
+  opacity: 0;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+
+.typing span:first-child {
+  animation: 9s steps(20, end) infinite typing1;
+}
+
+.typing span:nth-child(2) {
+  animation: 9s steps(20, end) infinite typing2;
+}
+
+.typing span:nth-child(3) {
+  animation: 9s steps(20, end) infinite typing3;
+}
+
+@keyframes typing1 {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+
+  10% {
+    opacity: 1;
+    width: 20ch;
+  }
+
+  20% {
+    opacity: 1;
+    width: 20ch;
+  }
+
+  30% {
+    opacity: 1;
+    width: 0;
+  }
+
+  33.3%, 100% {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+@keyframes typing2 {
+  0%, 33.3% {
+    opacity: 0;
+    width: 0;
+  }
+
+  33.3% {
+    opacity: 1;
+    width: 0;
+  }
+
+  43.3% {
+    opacity: 1;
+    width: 13ch;
+  }
+
+  53.3% {
+    opacity: 1;
+    width: 13ch;
+  }
+
+  63.3% {
+    opacity: 1;
+    width: 0;
+  }
+
+  66.6%, 100% {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+@keyframes typing3 {
+  0%, 66.6% {
+    opacity: 0;
+    width: 0;
+  }
+
+  66.6% {
+    opacity: 1;
+    width: 0;
+  }
+
+  76.6% {
+    opacity: 1;
+    width: 11ch;
+  }
+
+  86.6% {
+    opacity: 1;
+    width: 11ch;
+  }
+
+  96.6% {
+    opacity: 1;
+    width: 0;
+  }
+
+  100% {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: #0000;
+  }
+}
+
+.section {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.section h2 {
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+p.typing {
+  height: 28.8px;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=src_styles_globals_css_65f1660e._.single.css.map*/
