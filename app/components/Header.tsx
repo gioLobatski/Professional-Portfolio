@@ -1,30 +1,50 @@
+'use client';
+
+import Link from 'next/link';
+import { Module } from './layout';
+
 const Header = () => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <header className="flex justify-between items-center px-[10%] py-[60px] bg-gray-50 min-h-screen">
-      <div className="flex-1 text-left">
-        <h1>Hi, I'm Paul Genre Lobaton</h1>
-        <div className='typing_wrapper'>
-          <p className="typing inline-block relative text-[1.2em] border-r-2 border-black animate-caret steps-1 min-w-[20ch] text-center whitespace-nowrap overflow-hidden">
-            <span className="absolute left-1/2 -translate-x-1/2 overflow-hidden whitespace-nowrap w-0 opacity-0 animate-typing1 steps-20">
-              Full Stack Developer
-            </span>
-            <span className="absolute left-1/2 -translate-x-1/2 overflow-hidden whitespace-nowrap w-0 opacity-0 animate-typing2 steps-20">
-              Web Designer
-            </span>
-            <span className="absolute left-1/2 -translate-x-1/2 overflow-hidden whitespace-nowrap w-0 opacity-0 animate-typing3 steps-20">
-              Programmer
-            </span>
-          </p>
-        </div>
+    <Module className="fixed w-full bg-white z-[99999] border-b border-gray-200">
+      <div className="flex justify-between items-center px-[30px] py-[15px]">
+        <span className="font-bold text-[1.5em]">Gio</span>
+        <ul className="flex list-none gap-5 items-center m-0 p-0">
+          <li className='nav_link'>
+            <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer">
+              About
+            </a>
+          </li>
+          <li className='nav_link'>
+            <a href="#projects" onClick={(e) => scrollToSection(e, 'projects')} className="text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer">
+              Projects
+            </a>
+          </li>
+          <li className='nav_link'>
+            <a href="#skills" onClick={(e) => scrollToSection(e, 'skills')} className="text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer">
+              Skills
+            </a>
+          </li>
+          <li className='nav_link'>
+            <a href="#experience" onClick={(e) => scrollToSection(e, 'experience')} className="text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer">
+              Experience
+            </a>
+          </li>
+          <li className='nav_link contact'>
+            <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="text-decoration-none text-gray-800 font-medium hover:text-blue-500 border border-red-500 px-[20px] py-[10px] rounded-[10px] cursor-pointer">
+              Let's Talk!
+            </a>
+          </li>
+        </ul>
       </div>
-      <div className="header-right">
-        <img 
-          src="/assets/images/woocommerce-placeholder.jpg" 
-          alt="Paul Genre Lobaton" 
-          className="max-w-[250px] rounded-full border-[5px] border-gray-300" 
-        />
-      </div>
-    </header>
+    </Module>
   );
 };
 

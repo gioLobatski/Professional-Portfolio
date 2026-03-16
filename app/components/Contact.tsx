@@ -1,6 +1,7 @@
 'use client';
 
 import { FormEvent } from 'react';
+import { Section, Row, Column, Module } from './layout';
 
 const Contact = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -18,50 +19,58 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-[60px] px-[10%] text-center">
-      <h2 className="mb-[30px] text-[2em] text-gray-900">Contact</h2>
-      <form 
-        className="contact-form flex flex-col gap-4 max-w-[400px] mx-auto mb-10" 
-        onSubmit={handleSubmit}
-      >
-        <input 
-          type="text" 
-          name="name" 
-          placeholder="Your Name" 
-          required 
-          className="p-2.5 border border-gray-300 rounded-md"
-        />
-        <input 
-          type="email" 
-          name="email" 
-          placeholder="Your Email" 
-          required 
-          className="p-2.5 border border-gray-300 rounded-md"
-        />
-        <textarea 
-          name="message" 
-          placeholder="Your Message/Inquiry" 
-          required 
-          className="p-2.5 border border-gray-300 rounded-md"
-        ></textarea>
-        <button 
-          type="submit" 
-          className="p-2.5 border-none bg-blue-500 text-white rounded-md cursor-pointer hover:bg-blue-600"
-        >
-          Send
-        </button>
-      </form>
+    <Section id="contact" backgroundColor="bg-gray-50">
+      <Row>
+        <Column>
+          <Module className="text-center mb-[30px]">
+            <h2 className="text-[2em] text-gray-900">Contact</h2>
+          </Module>
+          <Module className="max-w-[400px] mx-auto mb-10">
+            <form 
+              className="contact-form flex flex-col gap-4" 
+              onSubmit={handleSubmit}
+            >
+              <input 
+                type="text" 
+                name="name" 
+                placeholder="Your Name" 
+                required 
+                className="p-2.5 border border-gray-300 rounded-md"
+              />
+              <input 
+                type="email" 
+                name="email" 
+                placeholder="Your Email" 
+                required 
+                className="p-2.5 border border-gray-300 rounded-md"
+              />
+              <textarea 
+                name="message" 
+                placeholder="Your Message/Inquiry" 
+                required 
+                className="p-2.5 border border-gray-300 rounded-md"
+              ></textarea>
+              <button 
+                type="submit" 
+                className="p-2.5 border-none bg-blue-500 text-white rounded-md cursor-pointer hover:bg-blue-600"
+              >
+                Send
+              </button>
+            </form>
+          </Module>
 
-      <div className="contact-details text-center">
-        <p>Email: giolobaton1024@gmail.com</p>
-        <p>Phone: +63 947 246 7693</p>
-        <div className="social-icons mt-4 flex justify-center gap-5">
-          <a href="#" className="hover:text-blue-500">LinkedIn</a>
-          <a href="#" className="hover:text-blue-500">GitHub</a>
-          <a href="#" className="hover:text-blue-500">Twitter</a>
-        </div>
-      </div>
-    </section>
+          <Module className="contact-details text-center">
+            <p>Email: giolobaton1024@gmail.com</p>
+            <p>Phone: +63 947 246 7693</p>
+            <div className="social-icons mt-4 flex justify-center gap-5">
+              <a href="#" className="hover:text-blue-500">LinkedIn</a>
+              <a href="#" className="hover:text-blue-500">GitHub</a>
+              <a href="#" className="hover:text-blue-500">Twitter</a>
+            </div>
+          </Module>
+        </Column>
+      </Row>
+    </Section>
   );
 };
 

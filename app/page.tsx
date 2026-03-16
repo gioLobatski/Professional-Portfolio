@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
@@ -9,8 +9,8 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <main className="min-h-screen w-full overflow-x-hidden">
-      <Navbar />
       <Header />
+      <HeroSection />
       <About />
       <Projects />
       <Skills />

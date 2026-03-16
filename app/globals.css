@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Custom Animations */
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100% + 300px)); /* Container height */
+  }
+}
+
 @keyframes typing1 {
   0% {
     opacity: 1;
