@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Gio/OneDrive/Desktop/Personal%20Projects/professional_portfolio/app/page.tsx"],"sourcesContent":["import Header from \"@/components/Header\";\r\nimport HeroSection from \"@/components/HeroSection\";\r\nimport About from \"@/components/About\";\r\nimport Projects from \"@/components/Projects\";\r\nimport Skills from \"@/components/Skills\";\r\nimport Experience from \"@/components/Experience\";\r\nimport Contact from \"@/components/Contact\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <main className=\"min-h-screen w-full overflow-x-hidden\">\r\n      <Header />\r\n      <HeroSection />\r\n      <About />\r\n      <Projects />\r\n      <Skills />\r\n      <Experience />\r\n      <Contact />\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAQe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;;;;;AAGP"}}]
+}
