@@ -2,11 +2,11 @@ import { Section, Row, Column, Module } from '../../layout';
 
 const Skills = () => {
   return (
-    <Section id="skills" backgroundColor="bg-gray-50">
+    <Section id="skills" backgroundColor="bg-[#161B22]">
       <Row>
         <Column>
           <Module className="text-center mb-[30px]">
-            <h2 className="text-[2em] text-gray-900">Skills</h2>
+            <h2 className="text-[2em] text-white">Skills</h2>
           </Module>
           <div className="skills-wrapper flex justify-center gap-10 flex-wrap">
             <Module className="skill-item flex flex-col items-center w-[150px]">

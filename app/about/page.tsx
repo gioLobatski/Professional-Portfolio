@@ -7,7 +7,6 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <HeroSection />
       
       <Section id="about-detail" backgroundColor="bg-gray-50">
         <Row>

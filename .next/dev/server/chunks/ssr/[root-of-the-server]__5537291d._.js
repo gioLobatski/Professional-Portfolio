@@ -160,12 +160,12 @@ const Header = ()=>{
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Module$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Module$3e$__["Module"], {
-        className: "fixed w-full bg-white z-[99999] border-b border-gray-200",
+        className: "fixed w-full z-[99999] border-b bg-[rgba(13,17,23,0.95)] border-[#161B22]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-between items-center px-[30px] py-[15px]",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "font-bold text-[1.5em]",
+                    className: "font-bold text-[1.5em] text-white",
                     children: "Gio"
                 }, void 0, false, {
                     fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -180,7 +180,7 @@ const Header = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#about",
                                 onClick: (e)=>scrollToSection(e, 'about'),
-                                className: "text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer",
+                                className: "text-decoration-none font-medium cursor-pointer transition-colors text-[#C9D1D9] hover:text-[#22D3EE]",
                                 children: "About"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -197,7 +197,7 @@ const Header = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#projects",
                                 onClick: (e)=>scrollToSection(e, 'projects'),
-                                className: "text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer",
+                                className: "text-decoration-none font-medium cursor-pointer transition-colors text-[#C9D1D9] hover:text-[#22D3EE]",
                                 children: "Projects"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -214,7 +214,7 @@ const Header = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#skills",
                                 onClick: (e)=>scrollToSection(e, 'skills'),
-                                className: "text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer",
+                                className: "text-decoration-none font-medium cursor-pointer transition-colors text-[#C9D1D9] hover:text-[#22D3EE]",
                                 children: "Skills"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -231,7 +231,7 @@ const Header = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#experience",
                                 onClick: (e)=>scrollToSection(e, 'experience'),
-                                className: "text-decoration-none text-gray-800 font-medium hover:text-blue-500 cursor-pointer",
+                                className: "text-decoration-none font-medium cursor-pointer transition-colors text-[#C9D1D9] hover:text-[#22D3EE]",
                                 children: "Experience"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -248,7 +248,7 @@ const Header = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#contact",
                                 onClick: (e)=>scrollToSection(e, 'contact'),
-                                className: "text-decoration-none text-gray-800 font-medium hover:text-blue-500 border border-red-500 px-[20px] py-[10px] rounded-[10px] cursor-pointer",
+                                className: "text-decoration-none font-medium px-[20px] py-[10px] rounded-[10px] cursor-pointer transition-all text-[#A78BFA] border border-[#A78BFA] bg-transparent hover:bg-[#A78BFA] hover:text-[#0D1117]",
                                 children: "Let's Talk!"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/sections/home/Header.tsx",
@@ -340,14 +340,14 @@ function ProjectCard({ imageSrc, alt, description, linkUrl }) {
                 href: linkUrl,
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: "text-center cursor-pointer hover:opacity-80 transition-opacity no-underline hover:text-blue-600",
+                className: "text-center cursor-pointer transition-opacity no-underline text-[#22D3EE] hover:text-[#A78BFA]",
                 children: description
             }, void 0, false, {
                 fileName: "[project]/app/components/projects/ProjectCard.tsx",
                 lineNumber: 25,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-center",
+                className: "text-center text-[#C9D1D9]",
                 children: description
             }, void 0, false, {
                 fileName: "[project]/app/components/projects/ProjectCard.tsx",
@@ -399,7 +399,7 @@ function ProjectSlider({ title, projects }) {
         className: "project-slider mb-[60px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "mb-[20px] text-left",
+                className: "mb-[20px] text-left text-white",
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/components/projects/ProjectSlider.tsx",
@@ -552,14 +552,14 @@ const Projects = ()=>{
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Section$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Section$3e$__["Section"], {
         id: "projects",
-        backgroundColor: "bg-white",
+        backgroundColor: "bg-[#0D1117]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Row$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Column$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Column$3e$__["Column"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Module$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Module$3e$__["Module"], {
                         className: "text-center mb-[30px]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-[2em] text-gray-900",
+                            className: "text-[2em] text-white",
                             children: "Projects"
                         }, void 0, false, {
                             fileName: "[project]/app/components/sections/home/Projects.tsx",
@@ -643,14 +643,14 @@ const Contact = ()=>{
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Section$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Section$3e$__["Section"], {
         id: "contact",
-        backgroundColor: "bg-gray-50",
+        backgroundColor: "bg-[#161B22]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Row$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Column$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Column$3e$__["Column"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Module$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Module$3e$__["Module"], {
                         className: "text-center mb-[30px]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-[2em] text-gray-900",
+                            className: "text-[2em] text-white",
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "[project]/app/components/sections/home/Contact.tsx",
@@ -673,7 +673,7 @@ const Contact = ()=>{
                                     name: "name",
                                     placeholder: "Your Name",
                                     required: true,
-                                    className: "p-2.5 border border-gray-300 rounded-md"
+                                    className: "p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/sections/home/Contact.tsx",
                                     lineNumber: 33,
@@ -684,7 +684,7 @@ const Contact = ()=>{
                                     name: "email",
                                     placeholder: "Your Email",
                                     required: true,
-                                    className: "p-2.5 border border-gray-300 rounded-md"
+                                    className: "p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/sections/home/Contact.tsx",
                                     lineNumber: 40,
@@ -694,7 +694,7 @@ const Contact = ()=>{
                                     name: "message",
                                     placeholder: "Your Message/Inquiry",
                                     required: true,
-                                    className: "p-2.5 border border-gray-300 rounded-md"
+                                    className: "p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/sections/home/Contact.tsx",
                                     lineNumber: 47,
@@ -702,7 +702,7 @@ const Contact = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     type: "submit",
-                                    className: "p-2.5 border-none bg-blue-500 text-white rounded-md cursor-pointer hover:bg-blue-600",
+                                    className: "p-2.5 border-none bg-[#22D3EE] text-[#0D1117] font-semibold rounded-md cursor-pointer hover:bg-[#06B6D4] transition-colors",
                                     children: "Send"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/sections/home/Contact.tsx",
@@ -721,7 +721,7 @@ const Contact = ()=>{
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$layout$2f$Module$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Module$3e$__["Module"], {
-                        className: "contact-details text-center",
+                        className: "contact-details text-center text-[#C9D1D9]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Email: giolobaton1024@gmail.com"
@@ -742,7 +742,7 @@ const Contact = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "hover:text-blue-500",
+                                        className: "text-[#22D3EE] hover:text-[#A78BFA] transition-colors",
                                         children: "LinkedIn"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/sections/home/Contact.tsx",
@@ -751,7 +751,7 @@ const Contact = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "hover:text-blue-500",
+                                        className: "text-[#22D3EE] hover:text-[#A78BFA] transition-colors",
                                         children: "GitHub"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/sections/home/Contact.tsx",
@@ -760,7 +760,7 @@ const Contact = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "hover:text-blue-500",
+                                        className: "text-[#22D3EE] hover:text-[#A78BFA] transition-colors",
                                         children: "Twitter"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/sections/home/Contact.tsx",

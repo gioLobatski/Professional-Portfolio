@@ -26,12 +26,12 @@ export default function ProjectCard({
           href={linkUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-center cursor-pointer hover:opacity-80 transition-opacity no-underline hover:text-blue-600"
+          className="text-center cursor-pointer transition-opacity no-underline text-[#22D3EE] hover:text-[#A78BFA]"
         >
           {description}
         </a>
       ) : (
-        <p className="text-center">{description}</p>
+        <p className="text-center text-[#C9D1D9]">{description}</p>
       )}
     </div>
   );

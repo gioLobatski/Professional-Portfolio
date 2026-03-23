@@ -31,11 +31,11 @@ const Projects = () => {
   ];
 
   return (
-    <Section id="projects" backgroundColor="bg-white">
+    <Section id="projects" backgroundColor="bg-[#0D1117]">
       <Row>
         <Column>
           <Module className="text-center mb-[30px]">
-            <h2 className="text-[2em] text-gray-900">Projects</h2>
+            <h2 className="text-[2em] text-white">Projects</h2>
           </Module>
           
           <ProjectSlider title="Owned Projects" projects={ownedProjects} />

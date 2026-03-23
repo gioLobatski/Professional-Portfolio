@@ -19,11 +19,11 @@ const Contact = () => {
   };
 
   return (
-    <Section id="contact" backgroundColor="bg-gray-50">
+    <Section id="contact" backgroundColor="bg-[#161B22]">
       <Row>
         <Column>
           <Module className="text-center mb-[30px]">
-            <h2 className="text-[2em] text-gray-900">Contact</h2>
+            <h2 className="text-[2em] text-white">Contact</h2>
           </Module>
           <Module className="max-w-[400px] mx-auto mb-10">
             <form 
@@ -35,37 +35,37 @@ const Contact = () => {
                 name="name" 
                 placeholder="Your Name" 
                 required 
-                className="p-2.5 border border-gray-300 rounded-md"
+                className="p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
               />
               <input 
                 type="email" 
                 name="email" 
                 placeholder="Your Email" 
                 required 
-                className="p-2.5 border border-gray-300 rounded-md"
+                className="p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
               />
               <textarea 
                 name="message" 
                 placeholder="Your Message/Inquiry" 
                 required 
-                className="p-2.5 border border-gray-300 rounded-md"
+                className="p-2.5 border border-[#30363D] rounded-md bg-[#0D1117] text-[#C9D1D9] placeholder-[#8B949E] focus:border-[#22D3EE] focus:outline-none"
               ></textarea>
               <button 
                 type="submit" 
-                className="p-2.5 border-none bg-blue-500 text-white rounded-md cursor-pointer hover:bg-blue-600"
+                className="p-2.5 border-none bg-[#22D3EE] text-[#0D1117] font-semibold rounded-md cursor-pointer hover:bg-[#06B6D4] transition-colors"
               >
                 Send
               </button>
             </form>
           </Module>
 
-          <Module className="contact-details text-center">
+          <Module className="contact-details text-center text-[#C9D1D9]">
             <p>Email: giolobaton1024@gmail.com</p>
             <p>Phone: +63 947 246 7693</p>
             <div className="social-icons mt-4 flex justify-center gap-5">
-              <a href="#" className="hover:text-blue-500">LinkedIn</a>
-              <a href="#" className="hover:text-blue-500">GitHub</a>
-              <a href="#" className="hover:text-blue-500">Twitter</a>
+              <a href="#" className="text-[#22D3EE] hover:text-[#A78BFA] transition-colors">LinkedIn</a>
+              <a href="#" className="text-[#22D3EE] hover:text-[#A78BFA] transition-colors">GitHub</a>
+              <a href="#" className="text-[#22D3EE] hover:text-[#A78BFA] transition-colors">Twitter</a>
             </div>
           </Module>
         </Column>

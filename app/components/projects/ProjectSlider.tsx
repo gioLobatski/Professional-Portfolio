@@ -35,7 +35,7 @@ export default function ProjectSlider({ title, projects }: ProjectSliderProps) {
 
   return (
     <div className="project-slider mb-[60px]">
-      <h3 className="mb-[20px] text-left">{title}</h3>
+      <h3 className="mb-[20px] text-left text-white">{title}</h3>
       <Slider {...sliderSettings}>
         {projects.map((project, index) => (
           <ProjectCard
